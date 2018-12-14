@@ -11,7 +11,7 @@ To get the latest code, see: https://git.openstack.org/cgit/openstack/git-nit
 
 Bugs are handled at: https://storyboard.openstack.org/#!/project/
 
-There is a mailing list at: http://lists.openstack.org/cgi-bin/mailman/listinfo/openstack-dev
+There is a mailing list at: http://lists.openstack.org/cgi-bin/mailman/listinfo/openstack-discuss
 
 Code reviews, as you might expect, are handled by gerrit at:
 https://review.openstack.org
