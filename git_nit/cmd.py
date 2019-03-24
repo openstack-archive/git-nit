@@ -123,7 +123,7 @@ def main():
     git_cmd = [
         'git',
         'clone',
-        'git://git.openstack.org/{}'.format(repo),
+        'https://git.openstack.org/{}'.format(repo),
         clone_to,
     ]
     print('Cloning {} into {}'.format(repo, clone_to))

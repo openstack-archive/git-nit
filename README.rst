@@ -35,7 +35,7 @@ patch as the first argument.
   $ git nit https://review.openstack.org/#/c/564559/
   release-tools-564559-finish-moving-announce.sh-to-releases-repo-by-deleting-it
   Cloning openstack-infra/release-tools into ./release-tools-564559-finish-moving-announce.sh-to-releases-repo-by-deleting-it
-  git clone git://git.openstack.org/openstack-infra/release-tools release-tools-564559-finish-moving-announce.sh-to-releases-repo-by-deleting-it
+  git clone https://git.openstack.org/openstack-infra/release-tools release-tools-564559-finish-moving-announce.sh-to-releases-repo-by-deleting-it
   Cloning into 'release-tools-564559-finish-moving-announce.sh-to-releases-repo-by-deleting-it'...
   remote: Counting objects: 2320, done.
   remote: Compressing objects: 100% (995/995), done.
@@ -62,7 +62,7 @@ patch as the first argument.
   remote: Total 1501 (delta 842), reused 1501 (delta 842)
   Receiving objects: 100% (1501/1501), 218.28 KiB | 0 bytes/s, done.
   Resolving deltas: 100% (842/842), done.
-  From git://git.openstack.org/openstack-infra/release-tools
+  From https://git.openstack.org/openstack-infra/release-tools
    * [new ref]         refs/notes/review -> refs/notes/review
   Fetching gerrit
 
@@ -79,7 +79,7 @@ draft older than the most recent patchset.
   $ git nit  https://review.openstack.org/#/c/564559/1/
   release-tools-564559-finish-moving-announce.sh-to-releases-repo-by-deleting-it
   Cloning openstack-infra/release-tools into ./release-tools-564559-finish-moving-announce.sh-to-releases-repo-by-deleting-it
-  git clone git://git.openstack.org/openstack-infra/release-tools release-tools-564559-finish-moving-announce.sh-to-releases-repo-by-deleting-it
+  git clone https://git.openstack.org/openstack-infra/release-tools release-tools-564559-finish-moving-announce.sh-to-releases-repo-by-deleting-it
   Cloning into 'release-tools-564559-finish-moving-announce.sh-to-releases-repo-by-deleting-it'...
   remote: Counting objects: 2320, done.
   remote: Compressing objects: 100% (991/991), done.
@@ -106,7 +106,7 @@ draft older than the most recent patchset.
   remote: Total 1501 (delta 842), reused 1501 (delta 842)
   Receiving objects: 100% (1501/1501), 218.18 KiB | 0 bytes/s, done.
   Resolving deltas: 100% (842/842), done.
-  From git://git.openstack.org/openstack-infra/release-tools
+  From https://git.openstack.org/openstack-infra/release-tools
    * [new ref]         refs/notes/review -> refs/notes/review
   Fetching gerrit
 
@@ -120,7 +120,7 @@ patchset number and subject.
 
   $ git nit -s  https://review.openstack.org/#/c/564559/1/
   Cloning openstack-infra/release-tools into release-tools
-  git clone git://git.openstack.org/openstack-infra/release-tools release-tools
+  git clone https://git.openstack.org/openstack-infra/release-tools release-tools
   Cloning into 'release-tools'...
   remote: Counting objects: 2320, done.
   remote: Compressing objects: 100% (989/989), done.
@@ -147,7 +147,7 @@ patchset number and subject.
   remote: Total 1501 (delta 842), reused 1501 (delta 842)
   Receiving objects: 100% (1501/1501), 218.28 KiB | 0 bytes/s, done.
   Resolving deltas: 100% (842/842), done.
-  From git://git.openstack.org/openstack-infra/release-tools
+  From https://git.openstack.org/openstack-infra/release-tools
    * [new ref]         refs/notes/review -> refs/notes/review
   Fetching gerrit
 
