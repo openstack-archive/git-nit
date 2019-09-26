@@ -1,8 +1,0 @@
-/.stestr
-/.tox
-/AUTHORS
-/ChangeLog
-/*.egg-info
-/RELEASENOTES.rst
-/dist
-/releasenotes/notes/reno.cache

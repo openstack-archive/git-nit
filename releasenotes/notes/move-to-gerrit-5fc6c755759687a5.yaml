@@ -1,9 +1,0 @@
----
-prelude: |
-  Development for git-nit has moved from github to the openstack.org
-  services. The source code is now available at
-  https://git.openstack.org/cgit/openstack/git-nit, patches under
-  review can be seen at
-  https://review.openstack.org/#/q/project:openstack%2Fgit-nit+is:open,n,z
-  and bugs and feature requests can be filed via
-  https://storyboard.openstack.org/#!/project/979.
